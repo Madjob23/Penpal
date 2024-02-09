@@ -1,0 +1,21 @@
+<html lang="en">
+
+<head>
+  <script type="text/javascript" src="https://www.chenyuho.com/project/handwritingjs/handwriting.canvas.js"></script>
+</head>
+
+<body>
+  <center>
+    <h1>PENPAL</h1>
+        <h4>Write what ever you want</h4>
+        <h4> <span id="paintMode"></span></h4>
+        <canvas id="canvas" width="800" height="400" style="border: 2px solid; cursor: crosshair;"></canvas>
+        <div class="buttons">
+          <button onclick="canvas.recognize()">Recognize</button>
+          <button onclick="canvas.erase()">Erase</button>
+        </div>
+        <div>Result: <span id="result" /></div>
+  </center>
+</body>
+
+</html>
